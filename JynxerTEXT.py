@@ -4,11 +4,11 @@ import os
 import json
 from collections import deque
 
-TELEGRAM_BOT_TOKEN = 'EnterYourTelegramBotAPIkeyHere'
+TELEGRAM_BOT_TOKEN = '7021679586:AAH2_pFOV5TOr83bHKEPuI1anDIwhb_zVh0'
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
-genai.configure(api_key='EnterYourGeminiAPIkeyHere')
+genai.configure(api_key='AIzaSyCZsW4A5pe3mootlVeBf9NdHErKvEqN6dU')
 
 generation_config = {
     "temperature": 1,
